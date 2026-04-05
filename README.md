@@ -1,4 +1,3 @@
-Since you're building this specifically for your embedded projects (like the ESP32 I2S and STM32 sensor work), here is a clean, professional **README.md**. I've structured it so you can easily add those "future features" later.
 ![App Screenshot](./ui.png)
 ---
 
