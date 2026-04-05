@@ -12,7 +12,6 @@ A lightweight, high-performance real-time data visualizer built with **Python**,
     * **Baudrate Selection:** Supports standard and high-speed rates (up to 2M).
     * **Interactive Y-Axis:** Toggle between **Auto-Fit** and **Manual** scaling via the UI.
 * **UI Locking:** Safety feature that prevents port setting changes while a connection is active.
-* **Cross-Platform:** Works on Windows (Git Bash/CMD) and Linux.
 
 ---
 
@@ -44,28 +43,18 @@ printf("%.3f\n", sensor_value);
 1.  Connect your microcontroller to your PC.
 2.  Run the script:
     ```bash
-    python plotter.py
+    python main.py
     ```
 3.  Click **Refresh**, select your **Port** and **Baudrate**, and hit **Connect**.
 
 ---
 
 ## 🛠️ Project Structure
-* `plotter.py`: The main Python application.
+* `main.py`: The main Python application.
 * `.venv/`: Virtual environment (ignored by Git).
 * `README.md`: Project documentation.
 
 ---
 
-## 📝 Planned Features
-- [ ] **Multi-Channel Support:** Plot multiple variables separated by commas.
-- [ ] **Record to CSV:** Export live data to a file for analysis.
-- [ ] **Triggering:** Pause the plot when a certain value threshold is met.
-- [ ] **Dark/Light Mode:** Customizable UI themes.
-
----
-
 ## ⚖️ License
 MIT License - Feel free to use this for your own hardware debugging!
-
----
